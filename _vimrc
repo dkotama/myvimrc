@@ -7,9 +7,9 @@ set whichwrap=b,s,h,l,<,>,[,],~
 " source $VIMRUNTIME/mswin.vim
 " behave mswin
 
-colors monokai
+colors desert
+set guifont=Consolas:h10
 
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
