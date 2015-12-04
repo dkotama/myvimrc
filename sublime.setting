@@ -1,0 +1,35 @@
+// this is my sublime text setting
+
+
+// user specific settings
+{
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"font_face": "Monaco",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		""
+	],
+	"vintage_start_in_command_mode": true
+}
+
+// keybindings user
+[	
+	{ 
+	 "keys"		  : ["2"],
+	 "command"	: "next_view",
+	 "context"  :
+	 [
+    { "key" : "setting.command_mode", "operand" : true}
+	 ]
+	},
+
+  { 
+   "keys"     : ["1"],
+   "command"  : "prev_view",
+   "context"  :
+   [
+    { "key" : "setting.command_mode", "operand" : true}
+   ]
+  }
+]
